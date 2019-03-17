@@ -1,0 +1,13 @@
+.field {
+    clear: both;
+    margin-top: 15px;
+    text-align: right;
+    line-height: 25px;
+}
+label {
+    float: left;
+    padding-right: 15px;
+}
+.form {
+    float: left;
+}

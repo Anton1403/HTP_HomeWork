@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+
+    <div class="form">
+        <button onclick="countRemainder(11, 3)">Remainder</button>
+        <button onclick="findWords()">Comment</button>
+        <button onclick="countPrice()">Amount of order</button>
+        
+        <form id="form" onsubmit="check(); return false">
+            <div class="field">
+                <label for="firstName"> Введите имя: </label>
+                <input type="text" id="firstName" required placeholder="Иван">
+            </div>
+            <div class="field">
+                <label for="secName"> Введите фамилию: </label>
+                <input type="text" id="secName" required placeholder="Иванов">
+            </div>
+            <div class="field">
+                <label for="pass"> Введите пароль: </label>
+                <input type="password" id="pass" required name="pass" minlength="5">
+            </div>
+            <div class="field">
+                <label for="email"> Введите e-mail: </label>
+                <input type="email" id="email" required>
+            </div>
+            <input type="submit" value="Send">
+        </form>
+
+
+    </div>
+
+
+    <script src="remainder.js"></script>
+    <script src="russianLetters.js"></script>
+    <script src="formTask.js"></script>
+    <script src="wordFilter.js"></script>
+    <script src="items.js"></script>
+</body>
+</html>
