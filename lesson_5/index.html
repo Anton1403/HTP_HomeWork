@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="timeForTheDay"></div>
+    <button onclick="secForDaysEnd();">До конца дня осталось</button>
+
+    <div>
+        <label for="dateOfBirthday">
+            <h3>Введите дату своего рождения</h3>
+        </label>
+        <input type="text" id="dateOfBirthday" placeholder="1998-03-14">
+        <button onclick="countDays();">Calculate</button>
+        <p>До дня рождения осталось: <span id="remainingDays"></span></p>
+    </div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment-with-locales.min.js"></script>
+    <script src="time.js"></script>
+    <script src="remainingDays.js"></script>
+    <script src="sortUsers.js"></script>
+</body>
+
+</html>
