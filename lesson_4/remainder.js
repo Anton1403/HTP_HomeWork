@@ -1,10 +1,5 @@
 function countRemainder(a, b) {
     
-    var result = a / b;
+    return a % b === 0 ? alert('Делится без остатка: ' + (a / b)) : alert('Делится с остатком: ' + (a % b));
     
-    if (a % b == 0) {
-        alert('Делится без остатка, результат: ' + result);
-    } else {
-        alert('Делится с остатком: ' + a % b);
-    }
 }

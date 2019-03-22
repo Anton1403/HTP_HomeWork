@@ -1,6 +1,5 @@
+var str = prompt('Введите слово для подсчета гласных', '');
 function countVowels() {
-
-    var str = prompt('Введите слово для подсчета гласных', '');
 
     if (str == null) {
         alert('Жаль, что вы ничего не ввели');
